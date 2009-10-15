@@ -1,0 +1,334 @@
+ Starting fridge control unit...CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.250
+	> T_dest is 6.500
+	> tau_warming is now 9000.000
+	> predicted tau_switch is 6300.000
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+ => LEDs explanation:
+  > LED 0	Clock, flashes each second.
+  > LED 1	Communication, flashes while receiving.
+  > LED 2	Fridge mode, flashes while cooling.
+  > LED 3	DSC mode, flashes while active.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 8.250
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+cooling
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.313
+	> T_dest is 6.500
+	> tau_warming is now 48.000
+	> predicted tau_switch is 6525.000
+
+ => Mode 'cooling'.
+
+status
+
+
+ => Controller status:
+  > Current timestamp = 23
+  > T_current = 8.375
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 48.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+#	63	8.3
+#	123	8.1
+#	183	7.9
+#	243	7.7
+#	303	7.4
+#	363	7.3
+#	423	7.2
+#	483	7.2
+#	543	7.3
+#	603	7.3
+#	663	7.4
+#	723	7.4
+#	783	7.5
+#	843	7.6
+#	903	7.7
+#	963	7.8
+#	1023	7.9
+#	1083	7.9
+set
+
+ => Unknown command: set
+
+help
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+ => LEDs explanation:
+  > LED 0	Clock, flashes each second.
+  > LED 1	Communication, flashes while receiving.
+  > LED 2	Fridge mode, flashes while cooling.
+  > LED 3	DSC mode, flashes while active.
+
+sett_min
+
+ => Unknown command: sett_min
+
+set t_min
+
+  > T_MIN currently is 6.5
+  > Enter new T_MIN: 7.2
+
+ => T_MIN changed to -1.0
+
+status
+
+
+ => Controller status:
+  > Current timestamp = 1131
+  > T_current = 7.875
+  > T_MIN = -1.000
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 48.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+sewt
+
+ => Unknown command: sewt
+
+sett
+
+ => Unknown command: sett
+
+set t_min
+
+  > T_MIN currently is -1.0
+  > Enter new T_MIN: 7
+
+ => T_MIN changed to -1.0
+
+set t_max
+
+  > T_MAX currently is 8.0
+  > Enter new T_MAX: 9
+
+ => T_MAX changed to -1.0
+
+status
+
+
+ => Controller status:
+  > Current timestamp = 1163
+  > T_current = 7.938
+  > T_MIN = -1.000
+  > T_MAX = -1.000
+  > tau_cooling = 5400.000
+  > tau_warming = 48.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+ Starting fridge control unit...CHECKW 2
+
+base:	> switch to 'warming' denied! (preventing oscillations around the temperature border.)
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+ => LEDs explanation:
+  > LED 0	Clock, flashes each second.
+  > LED 1	Communication, flashes while receiving.
+  > LED 2	Fridge mode, flashes while cooling.
+  > LED 3	DSC mode, flashes while active.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 7.938
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 7.938
+	> T_dest is 6.500
+	> tau_warming is now 9000.000
+	> predicted tau_switch is 5175.000
+status
+
+
+ => Controller status:
+  > Current timestamp = 61
+  > T_current = 8.125
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+#	1143	8.1
+warming
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 8.188
+	> T_dest is 8.000
+	> tau_cooling is now 64984.000
+	> predicted tau_switch is 64411.000
+
+ => Mode 'warming'.
+
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.188
+	> T_dest is 6.500
+	> tau_warming is now 9000.000
+	> predicted tau_switch is 7571.000
+status
+
+
+ => Controller status:
+  > Current timestamp = 111
+  > T_current = 8.188
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 64984.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+#	1203	8.2
+#	1263	8.3
+status
+
+
+ => Controller status:
+  > Current timestamp = 233
+  > T_current = 8.375
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 64984.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+#	1323	8.4
+#	1383	8.4
+sa
+
+ => Unknown command: sa
+
+stats
+
+ => Unknown command: stats
+
+status
+
+
+ => Controller status:
+  > Current timestamp = 314
+  > T_current = 8.438
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 64984.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+#	1443	8.5
+#	1503	8.6
+#	1563	8.7
+#	1623	8.8
+#	1683	8.8
+#	1743	8.9
+#	1803	8.9
+#	1863	8.6
+#	1923	8.4
+#	1983	8.1
+#	2043	7.9
+#	2103	7.7

@@ -1,0 +1,284 @@
+ Starting fridge control unit...CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 6.813
+	> T_dest is 8.000
+	> tau_cooling is now 5400.000
+	> predicted tau_switch is 7125.000
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+ => LEDs explanation:
+  > LED 0	Clock, flashes each second.
+  > LED 1	Communication, flashes while receiving.
+  > LED 2	Fridge mode, flashes while cooling.
+  > LED 3	DSC mode, flashes while active.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 6.813
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+#	62	7.1
+#	122	7.3
+#	182	7.4
+#	242	7.4
+#	302	7.6
+#	362	7.6
+#	422	7.8
+#	482	7.8
+#	542	7.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 693.000
+	> predicted tau_switch is 5400.000
+#	602	7.9
+#	662	7.7
+#	722	7.5
+#	782	7.3
+#	842	7.1
+#	902	6.9
+#	962	6.7
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 453.000
+	> predicted tau_switch is 693.000
+#	1022	6.5
+#	1082	6.4
+#	1142	6.4
+#	1202	6.4
+#	1262	6.6
+#	1322	6.6
+#	1382	6.8
+#	1442	6.8
+#	1502	6.9
+#	1562	7.1
+#	1622	7.2
+#	1682	7.3
+#	1742	7.4
+#	1802	7.5
+#	1862	7.6
+#	1922	7.7
+#	1982	7.8
+#	2042	7.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 1088.000
+	> predicted tau_switch is 453.000
+#	2102	7.9
+#	2162	7.9
+#	2222	7.6
+#	2282	7.4
+#	2342	7.2
+#	2402	6.9
+#	2462	6.8
+#	2522	6.6
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 437.000
+	> predicted tau_switch is 1088.000
+#	2582	6.4
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 71.000
+	> predicted tau_switch is 437.000
+#	2642	7.5
+#	2702	7.3
+#	2762	7.3
+#	2822	7.3
+#	2882	7.3
+#	2942	7.3
+#	3002	7.3
+#	3062	7.1
+#	3122	6.9
+#	3182	6.7
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 622.000
+	> predicted tau_switch is 71.000
+#	3242	6.4
+#	3302	6.4
+#	3362	6.4
+#	3422	6.4
+#	3482	6.5
+#	3542	6.6
+#	3602	6.8
+#	3662	6.8
+#	3722	6.9
+#	3782	7.0
+#	3842	7.1
+#	3902	7.3
+#	3962	7.4
+#	4022	7.4
+#	4082	7.5
+#	4142	7.6
+#	4202	7.8
+#	4262	7.8
+#	4322	7.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 1145.000
+	> predicted tau_switch is 622.000
+#	4382	8.0
+#	4442	7.9
+#	4502	7.6
+#	4562	7.4
+#	4622	7.2
+#	4682	6.9
+#	4742	6.8
+#	4802	6.6
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 449.000
+	> predicted tau_switch is 1145.000
+#	4862	6.4
+#	4922	6.4
+#	4982	6.4
+#	5042	6.5
+#	5102	6.6
+#	5162	6.6
+#	5222	6.8
+#	5282	6.9
+#	5342	7.0
+#	5402	7.1
+#	5462	7.2
+#	5522	7.3
+#	5582	7.4
+#	5642	7.5
+#	5702	7.6
+#	5762	7.7
+#	5822	7.8
+#	5882	7.9
+#	5942	7.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 1127.000
+	> predicted tau_switch is 449.000
+#	6002	7.9
+#	6062	7.7
+#	6122	7.5
+#	6182	7.3
+#	6242	7.1
+#	6302	6.8
+#	6362	6.6
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5

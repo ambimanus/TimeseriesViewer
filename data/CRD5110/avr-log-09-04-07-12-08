@@ -1,0 +1,122 @@
+ Starting fridge control unit...CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 8.063
+	> T_dest is 8.900
+	> tau_cooling is now 5400.000
+	> predicted tau_switch is 4434.000
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+ => LEDs explanation:
+  > LED 0	Clock: flashes each second.
+  > LED 1	Communication: flashes while receiving.
+  > LED 2	Fridge: flashes while cooling.
+  > LED 3	DSC: flashes while active.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 8.063
+  > T_MIN = 7.200
+  > T_MAX = 8.900
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+#	62	8.4
+#	122	8.6
+#	182	8.7
+indy
+
+ => Playing Indiana Jones Theme!'.
+
+imperial
+
+ => Playing Imperial March Theme!'.
+
+#	256	8.8
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 602.000
+	> predicted tau_switch is 5519.000
+#	316	8.9
+#	376	8.8
+#	436	8.6
+#	496	8.4
+#	556	8.1
+#	616	7.9
+#	676	7.7
+#	736	7.5
+#	796	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 493.000
+	> predicted tau_switch is 606.000
+#	856	7.1
+#	916	7.1
+#	976	7.1
+#	1036	7.1
+#	1096	7.3
+#	1156	7.3
+#	1216	7.4
+#	1276	7.6
+#	1336	7.7
+#	1396	7.8
+#	1456	7.9
+#	1516	8.0
+#	1576	8.1
+#	1636	8.2
+#	1696	8.3
+#	1756	8.4
+#	1816	8.5
+#	1876	8.6
+#	1936	8.7
+#	1996	8.8
+#	2056	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5

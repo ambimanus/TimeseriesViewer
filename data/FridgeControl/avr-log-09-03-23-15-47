@@ -1,0 +1,459 @@
+ Starting fridge control unit...
+base:	> switched to warming.
+	> T_current is 7.563
+	> T_dest is 8.000
+	> tau_cooling is now 5400.000
+	> predicted tau_switch is 2625.000
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 7.563
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+#	62	7.9
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 254.000
+	> predicted tau_switch is 5400.000
+#	122	8.0
+#	182	7.8
+#	242	7.6
+#	302	7.4
+#	362	7.1
+#	422	6.9
+#	482	6.8
+#	542	6.6
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 471.000
+	> predicted tau_switch is 254.000
+#	602	6.4
+#	662	6.4
+#	722	6.4
+#	782	6.5
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+#	842	6.6
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+#	902	6.7
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+base:	> switched to cooling.
+	> T_current is 6.750
+	> T_dest is 6.500
+	> tau_warming is now 2268.000
+	> predicted tau_switch is 79.000
+#	962	6.8
+
+base:	> switched to warming.
+	> T_current is 6.625
+	> T_dest is 8.000
+	> tau_cooling is now 948.000
+	> predicted tau_switch is 2079.000
+#	1022	6.6
+#	1082	6.5
+#	1142	6.6
+#	1202	6.6
+#	1262	6.7
+#	1322	6.8
+#	1382	6.9
+#	1442	7.0
+#	1502	7.1
+#	1562	7.3
+#	1622	7.3
+#	1682	7.4
+#	1742	7.6
+#	1802	7.7
+#	1862	7.8
+#	1922	7.9
+#	1982	7.9
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 1084.000
+	> predicted tau_switch is 948.000
+#	2042	7.9
+#	2102	7.8
+#	2162	7.5
+#	2222	7.3
+#	2282	7.1
+#	2342	6.9
+#	2402	6.7
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 437.000
+	> predicted tau_switch is 1084.000
+#	2462	6.4
+#	2522	6.4
+#	2582	6.4
+cooling
+
+base:	> switch to 'cooling' denied! (preventing oscillations around the temperature border.)
+
+ => Mode 'cooling'.
+
+indy
+
+ => Playing Indiana Jones Theme!'.
+
+#	2651	6.3
+#	2711	6.5
+#	2771	6.6
+#	2831	6.7
+#	2891	6.8
+#	2951	6.9
+#	3011	7.1
+#	3071	7.1
+#	3131	7.3
+#	3191	7.4
+dsc
+
+  > DSC control signal received.
+  > Specify mode (load/unload): load
+
+  > Specify spread in seconds: 0
+
+dsc:	> flag_unload is false.
+	> state is now 'wait_random'.
+	> delay is 0
+
+ => Starting DSC (load), spread=0
+
+
+base:	> switched to cooling.
+	> T_current is 7.438
+	> T_dest is 6.500
+	> tau_warming is now 1261.000
+	> predicted tau_switch is 273.000
+
+dsc:	> state is now 'wait_restore'.
+	> delay is 1698
+#	3256	7.4
+#	3316	7.3
+#	3376	7.0
+#	3436	6.9
+#	3496	6.6
+
+base:	> switched to warming.
+	> T_current is 6.625
+	> T_dest is 8.000
+	> tau_cooling is now 504.000
+	> predicted tau_switch is 1156.000
+#	3556	6.5
+#	3616	6.5
+#	3676	6.5
+#	3736	6.6
+#	3796	6.6
+#	3856	6.7
+#	3916	6.8
+#	3976	6.9
+#	4036	7.1
+#	4096	7.1
+#	4156	7.3
+#	4216	7.4
+#	4276	7.5
+#	4336	7.6
+#	4396	7.7
+#	4456	7.8
+#	4516	7.9
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 1176.000
+	> predicted tau_switch is 504.000
+#	4576	7.9
+#	4636	7.9
+#	4696	7.6
+#	4756	7.4
+#	4816	7.2
+#	4876	7.0
+
+base:	> switched to warming.
+	> T_current is 6.813
+	> T_dest is 8.000
+	> tau_cooling is now 440.000
+	> predicted tau_switch is 931.000
+
+dsc:	> state is now 'idle'.
+#	4936	6.8
+#	4996	6.6
+#	5056	6.6
+#	5116	6.7
+#	5176	6.8
+#	5236	6.8
+#	5296	6.9
+#	5356	7.0

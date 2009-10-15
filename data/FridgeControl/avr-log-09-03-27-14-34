@@ -1,0 +1,376 @@
+ Starting fridge control unit...CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.813
+	> T_dest is 8.900
+	> tau_cooling is now 5400.000
+	> predicted tau_switch is 5757.000
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+ => LEDs explanation:
+  > LED 0	Clock: flashes each second.
+  > LED 1	Communication: flashes while receiving.
+  > LED 2	Fridge: flashes while cooling.
+  > LED 3	DSC: flashes while active.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 7.813
+  > T_MIN = 7.200
+  > T_MAX = 8.900
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+cooling
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 7.813
+	> T_dest is 7.200
+	> tau_warming is now 9000.000
+	> predicted tau_switch is 1946.000
+
+ => Mode 'cooling'.
+
+#	63	7.8
+#	123	7.5
+#	183	7.4
+#	243	7.4
+#	303	7.4
+#	363	7.5
+#	423	7.6
+#	483	7.6
+#	543	7.7
+#	603	7.8
+#	663	7.9
+#	723	8.0
+#	783	8.1
+#	843	8.2
+#	903	8.3
+#	963	8.4
+#	1023	8.4
+#	1083	8.5
+#	1143	8.6
+#	1203	8.7
+#	1263	8.8
+#	1323	8.8
+#	1383	8.9
+#	1443	8.9
+#	1503	9.0
+#	1563	9.0
+#	1623	8.8
+#	1683	8.6
+#	1743	8.3
+#	1803	8.1
+#	1863	7.8
+#	1923	7.6
+#	1983	7.4
+#	2043	7.4
+#	2103	7.4
+#	2163	7.4
+#	2223	7.5
+#	2283	7.6
+#	2343	7.7
+set t_min
+
+  > T_MIN currently is 7.2
+  > Enter new T_MIN: 7.4
+
+ => T_MIN changed to 7.4
+
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.688
+	> T_dest is 8.900
+	> tau_cooling is now 28164.000
+	> predicted tau_switch is 7275.000
+status
+
+
+ => Controller status:
+  > Current timestamp = 2366
+  > T_current = 7.688
+  > T_MIN = 7.400
+  > T_MAX = 8.900
+  > tau_cooling = 28164.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+#	2408	7.8
+#	2468	7.9
+#	2528	7.9
+#	2588	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.400
+	> tau_warming is now 284.000
+	> predicted tau_switch is 28868.000
+#	2648	8.7
+#	2708	8.7
+#	2768	8.7
+#	2828	8.8
+#	2888	8.8
+#	2948	9.7
+#	3008	9.4
+#	3068	9.4
+#	3128	9.4
+#	3188	9.3
+#	3248	9.0
+#	3308	8.7
+#	3368	8.4
+#	3428	8.2
+#	3488	7.9
+#	3548	7.7
+#	3608	7.6
+#	3668	7.5
+#	3728	7.5
+#	3788	7.6
+#	3848	7.6
+#	3908	7.7
+#	3968	7.8
+#	4028	7.9
+#	4088	7.9
+#	4148	8.1
+#	4208	8.1
+#	4268	8.2
+#	4328	8.3
+#	4388	8.4
+#	4448	8.4
+#	4508	8.5
+#	4568	8.6
+#	4628	8.7
+#	4688	8.8
+#	4748	8.8
+#	4808	8.9
+#	4868	9.0
+#	4928	9.1
+#	4988	9.1
+#	5048	9.1
+#	5108	8.8
+#	5168	8.6
+#	5228	8.3
+#	5288	8.1
+#	5348	7.8
+#	5408	7.6
+#	5468	7.5
+#	5528	7.4
+#	5588	7.5
+#	5648	7.5
+#	5708	7.6
+#	5768	7.7
+#	5828	7.8
+set t_min
+
+  > T_MIN currently is 7.4
+  > Enter new T_MIN: 4.5
+
+ => T_MIN changed to 4.5
+
+sett
+
+ => Unknown command: sett
+
+set t_min
+
+  > T_MIN currently is 4.5
+  > Enter new T_MIN: 7.5
+
+ => T_MIN changed to 7.5
+
+warming
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.813
+	> T_dest is 8.900
+	> tau_cooling is now 4114.000
+	> predicted tau_switch is 221.000
+
+ => Mode 'warming'.
+
+#	5900	7.8
+#	5960	7.9
+#	6020	8.1
+#	6080	8.1
+#	6140	8.3
+#	6200	8.3
+#	6260	8.4
+#	6320	8.5
+#	6380	8.6
+#	6440	8.6
+#	6500	8.7
+#	6560	8.8
+#	6620	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.500
+	> tau_warming is now 925.000
+	> predicted tau_switch is 4224.000
+#	6680	8.9
+#	6740	9.0
+#	6800	9.1
+#	6860	9.1
+#	6920	9.6
+#	6980	9.2
+#	7040	8.8
+#	7100	8.5
+#	7160	8.3
+#	7220	7.9
+#	7280	7.8
+#	7340	7.6
+#	7400	7.6
+#	7460	7.6
+#	7520	7.6
+#	7580	7.7
+#	7640	9.3
+#	7700	9.1
+#	7760	8.9
+#	7820	8.8
+#	7880	8.8
+#	7940	8.9
+#	8000	8.9
+#	8060	8.9
+#	8120	8.9
+#	8180	9.0
+#	8240	9.0
+#	8300	9.1
+#	8360	9.1
+#	8420	9.2
+set t_min
+
+  > T_MIN currently is 7.5
+  > Enter new T_MIN: 7.6
+
+ => T_MIN changed to 7.6
+
+set
+
+ => Unknown command: set
+
+#	8486	9.2
+#	8546	9.3
+#	8606	9.3
+#	8666	9.1
+#	8726	8.9
+#	8786	8.6
+#	8846	8.4
+#	8906	8.1
+#	8966	7.9
+#	9026	7.7
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.563
+	> T_dest is 8.900
+	> tau_cooling is now 2300.000
+	> predicted tau_switch is 952.000
+#	9086	7.6
+#	9146	7.6
+#	9206	7.6
+#	9266	7.6
+#	9326	7.7
+#	9386	7.8
+#	9446	7.9
+#	9506	7.9
+#	9566	8.1
+#	9626	8.2
+#	9686	8.3
+#	9746	8.3
+#	9806	8.4
+#	9866	8.5
+#	9926	8.6
+#	9986	8.6
+#	10046	8.8
+#	10106	8.8
+#	10166	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.600
+	> tau_warming is now 1066.000
+	> predicted tau_switch is 2366.000
+#	10226	8.9
+#	10286	9.0
+#	10346	9.1
+#	10406	9.1
+#	10466	9.2
+#	10526	9.2
+#	10586	9.0
+#	10646	8.8
+#	10706	8.5
+#	10766	8.3

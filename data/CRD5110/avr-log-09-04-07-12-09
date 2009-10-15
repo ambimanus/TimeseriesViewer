@@ -1,0 +1,14 @@
+status
+
+
+ => Controller status:
+  > Current timestamp = 3701
+  > T_current = 8.625
+  > T_MIN = 7.200
+  > T_MAX = 8.900
+  > tau_cooling = 468.000
+  > tau_warming = 1233.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+#	3737	8.7

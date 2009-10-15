@@ -1,0 +1,120 @@
+ Starting fridge control unit...
+base:	> switched to cooling.
+	> T_current is 8.063
+	> T_dest is 6.500
+	> tau_warming is now 9000.000
+	> predicted tau_switch is 5625.000
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 8.063
+  > T_MIN = 6.500
+  > T_MAX = 8.000
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'cooling'.
+  > DSC module is in state 'idle'.
+
+#	62	8.3
+#	122	8.1
+#	182	7.9
+#	242	7.7
+#	302	7.5
+#	362	7.3
+#	422	7.1
+#	482	6.8
+#	542	6.6
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 551.000
+	> predicted tau_switch is 9000.000
+#	602	6.5
+#	662	6.4
+#	722	6.4
+#	782	6.4
+#	842	6.5
+#	902	6.6
+#	962	6.8
+#	1022	6.8
+#	1082	6.9
+#	1142	7.1
+#	1202	7.2
+#	1262	7.3
+#	1322	7.4
+#	1382	7.5
+#	1442	7.6
+#	1502	7.7
+#	1562	7.8
+#	1622	7.9
+#	1682	7.9
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 1118.000
+	> predicted tau_switch is 551.000
+#	1742	7.9
+#	1802	7.8
+#	1862	7.5
+#	1922	7.2
+#	1982	7.0
+#	2042	6.8
+#	2102	6.6
+
+base:	> switched to warming.
+	> T_current is 6.500
+	> T_dest is 8.000
+	> tau_cooling is now 427.000
+	> predicted tau_switch is 1118.000
+#	2162	6.4
+#	2222	6.4
+#	2282	6.4
+#	2342	6.4
+#	2402	6.5
+#	2462	6.6
+#	2522	6.7
+#	2582	6.8
+#	2642	6.9
+#	2702	7.0
+#	2762	7.1
+#	2822	7.3
+#	2882	7.3
+#	2942	7.4
+#	3002	7.6
+#	3062	7.6
+#	3122	7.8
+#	3182	7.8
+#	3242	7.9
+
+base:	> switched to cooling.
+	> T_current is 8.000
+	> T_dest is 6.500
+	> tau_warming is now 1164.000
+	> predicted tau_switch is 427.000
+#	3302	7.9
+#	3362	7.8
+#	3422	7.6
+#	3482	7.4
+#	3542	7.1
+#	3602	6.9
+#	3662	6.7
+

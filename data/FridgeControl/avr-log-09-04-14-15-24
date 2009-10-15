@@ -1,0 +1,747 @@
+ Starting fridge control unit...CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.250
+	> T_dest is 8.900
+	> tau_cooling is now 5400.000
+	> predicted tau_switch is 8735.000
+   => ready.
+
+ Hello, this is **** FridgeControl **** !
+
+ => Available commands:
+  > help	This text.
+  > status	Print controller status.
+  > time	Print the current timestamp.
+  > indy	Play Indiana Jones Theme.
+  > imperial	Play Imperial March Theme.
+  > cooling	Switch to mode 'cooling'.
+  > warming	Switch to mode 'warming'.
+  > set t_min	Redefine T_MIN.
+  > set t_max	Redefine T_MAX.
+  > dsc		DSC control signal.
+
+ => LEDs explanation:
+  > LED 0	Clock: flashes each second.
+  > LED 1	Communication: flashes while receiving.
+  > LED 2	Fridge: flashes while cooling.
+  > LED 3	DSC: flashes while active.
+
+
+
+ => Controller status:
+  > Current timestamp = 2
+  > T_current = 7.250
+  > T_MIN = 7.200
+  > T_MAX = 8.900
+  > tau_cooling = 5400.000
+  > tau_warming = 9000.000
+  > BaseController is in Mode 'warming'.
+  > DSC module is in state 'idle'.
+
+#	62	7.6
+#	122	7.8
+#	182	7.8
+#	242	7.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 9.063
+	> T_dest is 7.200
+	> tau_warming is now 256.000
+	> predicted tau_switch is 5916.000
+#	302	10.0
+#	362	9.0
+#	422	8.6
+#	482	8.3
+#	542	7.9
+#	602	9.3
+#	662	8.4
+#	722	8.0
+#	782	7.8
+#	842	7.4
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 567.000
+	> predicted tau_switch is 258.000
+#	902	7.2
+#	962	7.1
+#	1022	7.1
+#	1082	7.0
+#	1142	7.1
+#	1202	7.2
+#	1262	7.3
+#	1322	7.4
+#	1382	7.5
+#	1442	7.6
+#	1502	7.7
+#	1562	7.8
+#	1622	7.9
+#	1682	8.0
+#	1742	8.1
+#	1802	8.3
+#	1862	8.3
+#	1922	8.4
+#	1982	8.5
+#	2042	8.6
+#	2102	8.7
+#	2162	8.8
+#	2222	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 1297.000
+	> predicted tau_switch is 580.000
+#	2282	8.8
+#	2342	8.6
+#	2402	8.4
+#	2462	8.3
+#	2522	8.0
+#	2582	7.8
+#	2642	7.6
+#	2702	7.4
+#	2762	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 523.000
+	> predicted tau_switch is 1307.000
+#	2822	7.1
+#	2882	7.1
+#	2942	7.1
+#	3002	7.2
+#	3062	7.3
+#	3122	7.4
+#	3182	7.5
+#	3242	7.6
+#	3302	7.7
+#	3362	7.8
+#	3422	7.9
+#	3482	8.0
+#	3542	8.1
+#	3602	8.3
+#	3662	8.4
+#	3722	8.5
+#	3782	8.6
+#	3842	8.7
+#	3902	8.8
+#	3962	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 1189.000
+	> predicted tau_switch is 535.000
+#	4022	8.9
+#	4082	8.8
+#	4142	8.6
+#	4202	8.3
+#	4262	8.1
+#	4322	7.9
+#	4382	7.7
+#	4442	7.5
+#	4502	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 527.000
+	> predicted tau_switch is 1198.000
+#	4562	7.2
+#	4622	7.1
+#	4682	7.1
+#	4742	7.2
+#	4802	7.3
+#	4862	7.3
+#	4922	7.4
+#	4982	7.6
+#	5042	7.7
+#	5102	7.8
+#	5162	7.9
+#	5222	8.0
+#	5282	8.1
+#	5342	8.3
+#	5402	8.3
+#	5462	8.4
+#	5522	8.6
+#	5582	8.7
+#	5642	8.8
+#	5702	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 1158.000
+	> predicted tau_switch is 539.000
+#	5762	8.9
+#	5822	8.7
+#	5882	8.5
+#	5942	8.3
+#	6002	8.1
+#	6062	7.9
+#	6122	7.7
+#	6182	7.5
+#	6242	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 521.000
+	> predicted tau_switch is 1167.000
+#	6302	7.2
+#	6362	7.1
+#	6422	7.1
+#	6482	7.2
+#	6542	7.3
+#	6602	7.4
+#	6662	7.5
+#	6722	7.6
+#	6782	7.7
+#	6842	7.8
+#	6902	7.9
+#	6962	8.1
+#	7022	8.1
+#	7082	8.3
+#	7142	8.4
+#	7202	8.5
+#	7262	8.6
+#	7322	8.7
+#	7382	8.8
+#	7442	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 1147.000
+	> predicted tau_switch is 532.000
+#	7502	8.9
+#	7562	8.7
+#	7622	8.4
+#	7682	8.2
+#	7742	8.0
+#	7802	7.8
+#	7862	7.6
+#	7922	7.4
+#	7982	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 525.000
+	> predicted tau_switch is 1155.000
+#	8042	7.1
+#	8102	7.1
+#	8162	7.1
+#	8222	7.3
+#	8282	7.3
+#	8342	7.4
+#	8402	7.5
+#	8462	7.6
+#	8522	7.8
+#	8582	7.9
+#	8642	8.0
+#	8702	8.1
+#	8762	8.2
+#	8822	8.3
+#	8882	8.4
+#	8942	8.6
+#	9002	8.6
+#	9062	8.8
+#	9122	8.8
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 1143.000
+	> predicted tau_switch is 537.000
+#	9182	8.9
+#	9242	8.8
+#	9302	8.6
+#	9362	8.3
+#	9422	8.1
+#	9482	7.9
+#	9542	7.8
+#	9602	7.6
+#	9662	7.3
+#	9722	8.6
+#	9782	7.9
+#	9842	8.4
+#	9902	7.9
+#	9962	7.5
+#	10022	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 833.000
+	> predicted tau_switch is 1151.000
+#	10082	7.1
+#	10142	7.0
+#	10202	7.0
+#	10262	7.1
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 9.063
+	> T_dest is 7.200
+	> tau_warming is now 229.000
+	> predicted tau_switch is 913.000
+#	10322	9.0
+#	10382	8.2
+#	10442	7.8
+#	10502	7.5
+#	10562	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 267.000
+	> predicted tau_switch is 231.000
+#	10622	7.1
+#	10682	7.0
+#	10742	7.1
+#	10802	7.1
+#	10862	7.2
+#	10922	7.3
+#	10982	7.3
+#	11042	7.4
+#	11102	7.5
+#	11162	7.6
+#	11222	7.8
+#	11282	7.9
+#	11342	8.0
+#	11402	8.1
+#	11462	8.2
+#	11522	8.3
+#	11582	8.4
+#	11642	8.5
+#	11702	8.6
+#	11762	8.8
+#	11822	8.8
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 1246.000
+	> predicted tau_switch is 273.000
+#	11882	8.9
+#	11942	8.8
+#	12002	8.6
+#	12062	8.4
+#	12122	8.2
+#	12182	8.0
+#	12242	7.8
+#	12302	7.7
+#	12362	7.5
+#	12422	7.4
+#	12482	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 614.000
+	> predicted tau_switch is 1255.000
+#	12542	7.2
+#	12602	7.2
+#	12662	7.3
+#	12722	7.4
+#	12782	7.5
+#	12842	7.6
+#	12902	7.8
+#	12962	7.9
+#	13022	8.1
+#	13082	8.2
+#	13142	8.3
+#	13202	8.5
+#	13262	8.6
+#	13322	8.8
+#	13382	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 884.000
+	> predicted tau_switch is 628.000
+#	13442	8.9
+#	13502	8.8
+#	13562	8.6
+#	13622	8.4
+#	13682	8.2
+#	13742	8.1
+#	13802	7.9
+#	13862	7.8
+#	13922	7.6
+#	13982	7.5
+#	14042	7.4
+#	14102	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 708.000
+	> predicted tau_switch is 890.000
+#	14162	7.2
+#	14222	7.3
+#	14282	7.3
+#	14342	7.4
+#	14402	7.6
+#	14462	7.7
+#	14522	7.9
+#	14582	8.0
+#	14642	8.2
+#	14702	8.3
+#	14762	8.4
+#	14822	8.6
+#	14882	8.8
+#	14942	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 796.000
+	> predicted tau_switch is 724.000
+#	15002	8.9
+#	15062	8.8
+#	15122	8.6
+#	15182	8.4
+#	15242	8.2
+#	15302	8.0
+#	15362	7.9
+#	15422	7.8
+#	15482	7.6
+#	15542	7.4
+#	15602	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 672.000
+	> predicted tau_switch is 802.000
+#	15662	7.2
+#	15722	7.2
+#	15782	7.3
+#	15842	7.4
+#	15902	7.5
+#	15962	7.6
+#	16022	7.8
+#	16082	7.9
+#	16142	8.1
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 9.000
+	> T_dest is 7.200
+	> tau_warming is now 482.000
+	> predicted tau_switch is 712.000
+#	16202	9.8
+#	16262	9.1
+#	16322	8.7
+#	16382	8.4
+#	16442	8.2
+#	16502	7.9
+#	16562	7.7
+#	16622	7.6
+#	16682	7.4
+#	16742	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 558.000
+	> predicted tau_switch is 486.000
+#	16802	7.1
+#	16862	7.2
+#	16922	7.3
+#	16982	7.4
+#	17042	7.4
+#	17102	7.6
+#	17162	7.7
+#	17222	7.8
+#	17282	7.9
+#	17342	8.1
+#	17402	8.2
+#	17462	8.3
+#	17522	8.4
+#	17582	8.6
+#	17642	8.7
+#	17702	8.8
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 972.000
+	> predicted tau_switch is 570.000
+#	17762	8.9
+#	17822	8.8
+#	17882	8.6
+#	17942	8.4
+#	18002	8.2
+#	18062	8.0
+#	18122	7.8
+#	18182	7.6
+#	18242	7.4
+#	18302	7.3
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 563.000
+	> predicted tau_switch is 979.000
+#	18362	7.2
+#	18422	7.2
+#	18482	7.2
+#	18542	7.3
+#	18602	7.4
+#	18662	7.6
+#	18722	7.7
+#	18782	7.8
+#	18842	7.9
+#	18902	8.1
+#	18962	8.1
+#	19022	8.3
+#	19082	8.4
+#	19142	8.5
+#	19202	8.6
+#	19262	8.8
+#	19322	8.9
+
+CHECKC 1
+CHECKC 2
+CHECKC 3
+CHECKC 4
+CHECKC 5
+CHECKC 6
+CHECKC 7
+
+base:	> switched to cooling.
+	> T_current is 8.938
+	> T_dest is 7.200
+	> tau_warming is now 989.000
+	> predicted tau_switch is 575.000
+#	19382	8.9
+#	19442	8.8
+#	19502	8.5
+#	19562	8.3
+#	19622	8.1
+#	19682	7.9
+#	19742	7.8
+#	19802	7.5
+#	19862	7.4
+
+CHECKW 1
+CHECKW 2
+CHECKW 3
+CHECKW 4
+CHECKW 5
+CHECKW 6
+CHECKW 7
+
+base:	> switched to warming.
+	> T_current is 7.188
+	> T_dest is 8.900
+	> tau_cooling is now 553.000
+	> predicted tau_switch is 996.000
+#	19922	7.2
+#	19982	7.1
+#	20042	7.2
+#	20102	7.3
+#	20162	7.3
+#	20222	7.4
