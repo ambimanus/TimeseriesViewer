@@ -2,8 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/jfreechart-1.0.10-fastpatch"/>
-	<classpathentry kind="lib" path="/jfreechart-1.0.10-fastpatch/lib/swt-3.4-gtk-linux-x86_64.jar" sourcepath="/opt/swt-3.4-gtk-linux-x86_64/src.zip"/>
 	<classpathentry kind="lib" path="lib/javacsv.jar" sourcepath="/opt/src/javacsv2.0/src/"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.13.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.10-fastpatch.jar"/>
+	<classpathentry kind="lib" path="lib/swt-3.4-gtk-linux-x86_64.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
